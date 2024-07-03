@@ -1,0 +1,35 @@
+{
+  "name": "m-node-logger",
+  "version": "1.0.0",
+  "description": "Marco's Logger for Node.js is a robust and efficient logging solution designed to streamline your logging processes and enhance your application's maintainability.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": "https://github.com/MarcosPCB/m-Logger.git",
+  "author": "MarcosPCB <marcospaulocbrito@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc --declaration"
+  },
+  "keywords": [
+    "cool",
+    "useful",
+    "stuff"
+  ],
+  "homepage": "https://github.com/MarcosPCB/m-Logger",
+  "bugs": "https://github.com/MarcosPCB/m-Logger/issues",
+  "files": [
+    "index.js",
+    "lib/*.js",
+    "bin/*.js"
+  ],
+  "dependencies": {
+    "@types/node-cron": "^3.0.11",
+    "log4js": "^6.9.1",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.3"
+  }
+}
