@@ -1,6 +1,6 @@
 {
   "name": "m-node-logger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Marco's Logger for Node.js is a robust and efficient logging solution designed to streamline your logging processes and enhance your application's maintainability.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
