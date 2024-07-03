@@ -75,4 +75,4 @@ const logger: ILogger = {
   },
 }
 
-export default logger;
+export = logger;
